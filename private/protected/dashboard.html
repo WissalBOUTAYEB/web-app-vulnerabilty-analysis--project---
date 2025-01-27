@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h2>Tableaux de Gestion des Taches Task Manager</h2>
+    <form id="addTaskForm">
+      <label for="task">Ajouter Nouveaux Tache </label>
+      <input type="text" id="task" name="task" required>
+      <button type="submit">Add Task</button>
+    </form>
+    <h3>Your Tasks</h3>
+    <table id="taskTable">
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>

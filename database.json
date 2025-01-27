@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "username": "wissal",
+      "password": "$2b$10$d6g.Am7bQAxJu.316xnZTeK14A2/PecHKh98D5TjnFgd4cNN6zOVC"
+    },
+    {
+      "username": "Maryam",
+      "password": "$2b$10$ojf7aw7oAHR6ae5hvXYqBOYHh5n0dgSk4WCHzZ/gBJPR3QKWtVSpC"
+    },
+    {
+      "username": "BOUTAYEB",
+      "password": "$2b$10$AM8Wkn..r6g/hpTdGTQewOzI.iwIDOqSQzS1AyhfqD0s91OgFbZky"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1674220800000,
+      "task": "Buy groceries",
+      "user": "user1"
+    },
+    {
+      "id": 1674220810000,
+      "task": "Read a book",
+      "user": "user1"
+    },
+    {
+      "id": 1674220820000,
+      "task": "Complete project",
+      "user": "user2"
+    },
+    {
+      "id": 1674220830000,
+      "task": "Plan vacation",
+      "user": "user2"
+    },
+    {
+      "id": 1737937743972,
+      "task": "go to the dentist",
+      "user": "wissal"
+    },
+    {
+      "id": 1737939431395,
+      "task": "visit your Manager",
+      "user": "Maryam"
+    }
+  ]
+}

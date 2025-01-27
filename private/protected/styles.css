@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+body h1{
+  text-align: center;
+  font-size: 40px;
+}
+body  a{
+  
+  text-align: center;
+  font-size: 30px;
+  margin-left: 300px;
+  padding-left: 300px;
+  border-radius: 8px;
+  background-color: #4ca2af;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dashboard-container h2{
+
+  text-align: center;
+  font-size: 30px;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.add-task-section, .task-display-section {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #4ca2af;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #4585a0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+/* Task Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+  }
+
+  .task-display-section table, .add-task-section {
+    width: 100%;
+  }
+}
