@@ -6,15 +6,21 @@ This project involves analyzing the security vulnerabilities of a simple web app
 
 🎯 Objectives
 
-🕵️‍♂️ Identify Security Vulnerabilities: Analyze the code to detect authentication flaws, XSS (Cross-Site Scripting), SQL injections, and session management issues.
+🕵️‍♂️ Identify Security Vulnerabilities:
+
+Analyze the code to detect authentication flaws, XSS (Cross-Site Scripting), SQL injections, and session management issues.
 
 🔧 Enhance Application Reliability: Identify unhandled errors and propose solutions.
 
 🚀 Suggest Improvements: Recommend security measures to enhance stability.
 
-🎨 Develop Modern Static Files: Create user-friendly HTML, CSS, and JavaScript pages.
+🎨 Develop Modern Static Files:
 
-📋 Document Vulnerabilities & Errors: Explain security flaws and propose mitigation strategies.
+Create user-friendly HTML, CSS, and JavaScript pages.
+
+📋 Document Vulnerabilities & Errors: 
+
+Explain security flaws and propose mitigation strategies.
 
 📊 Implement a Functional Dashboard: Provide an intuitive UI for task management using Vanilla JavaScript.
 
@@ -47,6 +53,7 @@ GET /logout ➜ Logout user.
 🔑 Authentication & Password Management
 
 ❌ Issue: Passwords stored in plain text.
+
 ✅ Solution: Use bcrypt to hash passwords before storage.
 
 const bcrypt = require('bcrypt');
@@ -55,12 +62,16 @@ data.users.push({ username, password: hashedPassword });
 
 🚪 Session Management
 
+
 ❌ Issue: Weak session handling can lead to unauthorized access.
+
 ✅ Solution: Implement secure cookies and enforce session expiration.
 
 ✍️ Input Validation & Sanitization
 
+
 ❌ Issue: Lack of user input validation.
+
 ✅ Solution: Use input sanitization libraries like express-validator to prevent XSS & SQL injections.
 
 const { body, validationResult } = require('express-validator');
